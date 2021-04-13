@@ -1,0 +1,236 @@
+body {
+    background-color: #292F36;
+}
+.topBar {
+    display: block;
+}
+h1 {
+    color: #E6AACE;
+}
+
+h3 {
+    
+    color:#E6AACE;
+
+}
+
+
+
+.bottomBar{
+position: absolute;
+width: 423px;
+height: 54px;
+left: 45px;
+top: 400px;
+
+font-family: Montserrat;
+font-size: 44px;
+font-style: normal;
+font-weight: 800;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: left;
+color: #E6AACE;
+}
+.month{
+    position: absolute;
+    width: 118px;
+    height: 29px;
+    left: 58px;
+    top: 500px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration-line: underline;
+    
+    color: #FFFCF3;
+
+}
+
+
+.allPass{
+    position: absolute;
+    width: 209px;
+    height: 54px;
+    left: 57px;
+    top: 760px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 54px;
+    /* identical to box height */
+    
+    
+    color: #E6AACE;
+
+}
+
+
+/* Grid */
+
+.span_7_of_7 {
+	width: 100%;
+}
+
+.span_6_of_7 {
+  	width: 85.48%;
+}
+
+.span_5_of_7 {
+  	width: 70.97%;
+}
+
+.span_4_of_7 {
+  	width: 56.45%;
+}
+
+.span_3_of_7 {
+  	width: 41.94%;
+}
+
+.span_2_of_7 {
+  	width: 27.42%;
+}
+
+.span_1_of_7 {
+  	width: 12.91%;
+}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+.box {
+position: relative;
+width: 129px;
+height: 129px;
+left: 1px;
+top: 450px;
+
+background: #4A5562;
+border-radius: 16.5254px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+padding: 10px;
+}
+
+.box .date {
+font-size: 26.4406px;
+line-height: 32px;
+color: #FFFCF3;
+}
+
+.box .day {
+    font-size: 14px;
+line-height: 17px;
+
+color: #FFFCF3;
+}
+
+.box .book {
+    border: 2px solid #FFFCF3;
+    border-radius: 100px;
+    width: 30px;
+    text-align: center;
+    padding: 5px;
+    margin: 30px 40px;
+    font-size: 24px;
+    color: #fff;
+}
+
+/*  GRID ALL Pass  */
+.span_5_of_5 {
+	width: 100%;
+}
+.span_4_of_5 {
+	width: 79.68%;
+}
+.span_3_of_5 {
+	width: 59.36%;
+}
+.span_2_of_5 {
+	width: 39.04%;
+}
+.span_1_of_5 {
+	width: 18.72%;
+}
+.pass{
+    position: relative;
+    width: 183px;
+    height: 44px;
+    left: 52px;
+    top: 550px;
+    
+    background: #A9CDBC;
+    border-radius: 25px;
+
+}
+.pass .allPass{
+
+    position: absolute;
+width: 76px;
+height: 29px;
+left: 40px;
+top: 7px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 23.5107px;
+line-height: 29px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #000000;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
