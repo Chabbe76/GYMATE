@@ -208,10 +208,100 @@ text-transform: uppercase;
 
 color: #000000;
 
+}
+.livePass{
+
+    position: absolute;
+width: 405px;
+height: 54px;
+left: 50px;
+top: 900px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 44px;
+line-height: 54px;
+/* identical to box height */
+
+
+color: #A9CDBC;
+
+
+
+
+}
+.passVal1{
+    position: absolute;
+    width: 138px;
+    height: 24px;
+    left: 50px;
+    top: 960px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    
+    color: #FFFCF3;
+
+}
+.passVal2{
+    position: absolute;
+    width: 182px;
+    height: 24px;
+    left: 50px;
+    top: 1010px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    
+    color: #FFFCF3;    
+
 
 }
 
+.passVal3{
+    position: absolute;
+    width: 131px;
+    height: 24px;
+    left: 50px;
+    top: 1060px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    
+    color: #FFFCF3;
+    
 
+}
+.modal{
+display: none;
+
+
+}
+.modal.visible{
+
+    display: block;
+
+position: absolute;
+width: 420px;
+height: 350px;
+left: -7px;
+top: -9px;
+
+background: #292F36;
+}
 
 
 
